@@ -2,21 +2,20 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: Helvetica;
-    background-image: linear-gradient(to right, rgb(176, 214, 72), black);
     color: white;
     text-align: center;
     padding-top: 40px;
 }
 
 #tasks-container {
-    width: 500px;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
 }
 /*tasks form*/
 
 #tasks-header {
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 #add-task-form {
@@ -25,16 +24,16 @@ body {
 
 #add-task-form input {
     box-sizing: border-box;
-    border: 1px solid #078907;
+    border: 1px solid #cbe4fc;
     background: white;
-    color: #0b9b0b;
+    color: #3f59ba;
     padding: 15px;
     font-size: 18px;
     width: 100%;
 }
 
 #add-task-form input::placeholder {
-    color: #0bcb0e;
+    color: #8692c3;
 }
 
 #add-task-form input:focus {
@@ -44,7 +43,7 @@ body {
 #add-btn {
     position: absolute;
     background: white;
-    border: 1px solid  #0b9b0b;
+    border: 1px solid  #cbe4fc;
     cursor: pointer;
     transition: .5s;
     width: 60px;
@@ -55,12 +54,12 @@ body {
 }
 
 #add-btn:hover {
-    background-color: #899653 ;
-    color: white;
+    background-color: #5f6fd5 ;
+    color: rgb(255, 255, 255);
 }
 
 ion-icon {
-    font-size: 25px;
+    font-size: 24px;
 
 }
 
@@ -76,9 +75,9 @@ ion-icon {
     height: 50px;
     line-height: 50px;
     position: relative;
-    border-bottom: 3px solid   #0b9b0b;
+    border-bottom: 1px solid   #145796;
     background-color: white;
-    color:  #0b9b0b;
+    color: #1b3fc1;
     margin-bottom: 10px;
     padding-left: 15px;
     transition: .5s;
@@ -100,7 +99,7 @@ ion-icon {
 }
 
 .done-btn{
-    right: 40px;
+    right: 30px;
 }
 
 .done-btn:hover{
@@ -122,7 +121,7 @@ ion-icon {
 }
 
 #task-list li.done{
-    background-color: #078907;
+    background-color: #072789;
     color: white;
     text-decoration: line-through;
 }
